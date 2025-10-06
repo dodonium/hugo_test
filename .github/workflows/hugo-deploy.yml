@@ -6,7 +6,7 @@ on:
   # masterブランチにプッシュされた時に実行
   push:
     branches:
-      - master
+      - main
   # Actionsタブから手動で実行することも許可
   workflow_dispatch:
 
