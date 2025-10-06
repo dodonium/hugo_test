@@ -3,8 +3,6 @@ languageCode = "ja-jp"
 title = "Torigoya" 
 theme = ["custom","book"]
 
-
-
 [params]
   BookTheme = 'light'
   BookSection = '*'
