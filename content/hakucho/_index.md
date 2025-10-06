@@ -1,6 +1,7 @@
 +++
 title = 'hakucho'
 bookCollapseSection = true
+weight = 3
 +++
 ## hakucho
 ここはhakucho  

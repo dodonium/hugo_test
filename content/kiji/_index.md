@@ -1,6 +1,7 @@
 +++
 title = 'kiji'
 bookCollapseSection = true
+weight = 1
 +++
 ## kiji
 ここはkiji  

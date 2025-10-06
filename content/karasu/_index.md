@@ -1,6 +1,7 @@
 +++
 title = 'karasu'
 bookCollapseSection = true
+weight = 2
 +++
 ## karasu
 ここはkarasu  
