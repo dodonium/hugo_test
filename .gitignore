@@ -1,0 +1,3 @@
+/public/
+/resources/git submodule add https://github.com/theNewDynamic/gohugo-ananke.git themes/ananke
+.env
