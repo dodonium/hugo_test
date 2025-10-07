@@ -1,23 +1,18 @@
-{{/* .NextInSection を「前へ」、.PrevInSection を「次へ」に割り当てる */}}
-{{ $prev := .NextInSection }}
-{{ $next := .PrevInSection }}
-{{- if or $prev $next }}
 <div class="flex flex-wrap justify-between">
-  <span>
-  {{ with $prev }}
+  <div>
+  {{ with .NextInSection }}
     <a href="{{ .RelPermalink }}" class="flex align-center">
       <img src="{{ partial "docs/icon" "backward" }}" class="book-icon" alt="Previous" title="{{ partial "docs/title" . }}" />
       <span>{{ partial "docs/title" . }}</span>
     </a>
   {{ end }}
-  </span>
-  <span>
-  {{ with $next }}
+  </div>
+  <div>
+  {{ with .PrevInSection }}
     <a href="{{ .RelPermalink }}" class="flex align-center">
       <span>{{ partial "docs/title" . }}</span>
       <img src="{{ partial "docs/icon" "forward" }}" class="book-icon" alt="Next" title="{{ partial "docs/title" . }}" />
     </a>
   {{ end }}
-  </span>
+  </div>
 </div>
-{{ end -}}

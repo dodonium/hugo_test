@@ -1,0 +1,8 @@
+{{ $currentSection := .Page.Section }}
+{{ $pagesInSection := where .Site.Pages "Section" $currentSection }}
+
+{{ range $pagesInSection }}
+  {{ if ne .Permalink $.Page.Permalink }}
+    <a href="{{ .Permalink }}">{{ .Title }}</a><br>
+  {{ end }}
+{{ end }}

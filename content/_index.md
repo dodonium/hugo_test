@@ -8,7 +8,6 @@ title: "Home"
 
 これはテスト投稿です。
 
-
 ## Markdown表示要素のテスト
 
 基本的なMarkdownの記法がPaperModテーマで正しく表示されるかを確認するための要素をリストアップします。
@@ -66,7 +65,7 @@ say_hello()
 ### 5. リンクと画像
 
 - [Hugo公式サイトへのリンク](https://gohugo.io/)
-- [PaperModテーマのGitHubリポジトリ](https://github.com/gohugoio/hugo)
+- [Book公式サイトへのリンク](https://hugo-book-demo.netlify.app/docs/example/)
 
 以下はダミー画像の表示テストです。
 
